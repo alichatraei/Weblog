@@ -5,11 +5,57 @@
 }
 html,
 body {
-  padding: 0;
-  margin: 0;
   width: 100%;
   height: 100%;
 }
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* header */
+header {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+}
+header::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 45%;
+  background: url(./assets/pexels-lisa-fotios-691858-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  z-index: -1;
+  filter: brightness(0.7);
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  width: 80%;
+  height: 2rem;
+  align-items: center;
+  color: white;
+  font-family: websans;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  margin: 1rem 0 0 0;
+}
+.liTags {
+  display: flex;
+  list-style: none;
+}
+.liTags a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
+.fal,
+.fab {
+  color: white;
+  margin: 0 0.4rem;
 }
