@@ -16,7 +16,7 @@ body {
 /* header */
 header {
   width: 100%;
-  height: 35rem;
+  height: 45%;
   display: flex;
   align-items: center;
   flex-flow: column;
@@ -25,7 +25,7 @@ header::before {
   position: absolute;
   content: "";
   width: 100%;
-  height: 35rem;
+  height: 45%;
   background: url(./assets/pexels-lisa-fotios-691858-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@ header::before {
 .section {
   width: 100%;
   height: 100%;
-  margin: 2rem 0 0 0;
+  margin: 2rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -97,6 +97,7 @@ header::before {
   width: 25%;
   box-shadow: -1px 1px 134px 20px rgba(0, 0, 0, 0.17);
   font-family: websans;
+  margin: 0 0 2rem 0;
 }
 .post1 {
   margin: 0 0 0 1rem;
@@ -122,4 +123,29 @@ header::before {
   padding: 0 2rem;
   margin: 1rem 0;
   color: #9e9e9e;
+}
+.break {
+  display: flex;
+  align-items: center;
+}
+.break hr {
+  color: #ccc;
+  width: 70%;
+}
+.fa-comment {
+  color: #a5a5a5;
+}
+.comment {
+  width: 5rem;
+  height: 3rem;
+  background-color: #f6f6f6;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 1rem;
+  color: #a5a5a5;
+}
+.hashtags {
+  padding: 0 2rem;
 }
