@@ -91,9 +91,8 @@ header::before {
   justify-content: space-between;
 }
 .post {
-  width: calc(100% / 4);
+  width: 23%;
   height: 100%;
-  margin: 0 1rem;
   box-shadow: -1px 1px 134px 20px rgba(0, 0, 0, 0.17);
   font-family: websans;
   border-radius: 0.3rem;
@@ -153,4 +152,37 @@ header::before {
 .hashtags {
   padding: 0 2rem;
   margin: 0 0 1rem 0;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+    flex-flow: row wrap;
+    height: 100%;
+    justify-content: center;
+  }
+  .liTags {
+    justify-content: center;
+    flex-flow: row wrap;
+    font-size: 1.1rem;
+  }
+  .title {
+    width: 80%;
+  }
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  .section {
+    flex-flow: column;
+  }
+  .post {
+    width: auto;
+    margin: 1rem;
+  }
 }
