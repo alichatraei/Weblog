@@ -94,18 +94,24 @@ header::before {
 .post {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 28rem;
   box-shadow: -1px 1px 134px 20px rgba(0, 0, 0, 0.17);
   font-family: websans;
   margin: 0 0 2rem 0;
+  border-radius: 0.3rem;
 }
-.post1 {
+.firstPost {
   margin: 0 0 0 1rem;
+}
+.lastPost {
+  margin: 0 1rem 0 0;
 }
 .postImage {
   width: auto;
-  height: 20rem;
-  overflow: hidden;
+  height: auto;
+}
+.postImage img {
+  width: 100%;
 }
 .postDetail {
   font-size: 1.1rem;
@@ -148,4 +154,5 @@ header::before {
 }
 .hashtags {
   padding: 0 2rem;
+  margin: 0 0 1rem 0;
 }
