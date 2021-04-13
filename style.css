@@ -96,6 +96,9 @@ header::before {
   box-shadow: -1px 1px 134px 20px rgba(0, 0, 0, 0.17);
   font-family: websans;
   border-radius: 0.3rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 .firstPost {
   margin: 0 0 0 1rem;
